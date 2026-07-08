@@ -1,57 +1,94 @@
-import serial
-import time
-import sys
+"""
+라이다 방향 캘리브레이션(보정) 코드 - 실제 데이터 구조 반영판
 
-# UART 3 포트 세팅 (/dev/ttyAMA3)
-UART_PORT = '/dev/ttyAMA3'
-BAUDRATE = 9600
+실제 수신 데이터 형식:
+{
+    "type": "lidar",
+    "points": [
+        {"angle": 346.0, "distance": 1239.0, "x": 1202.03, "y": -300.4},
+        ...
+    ]
+}
+- angle: 0~360도 (라이다 자체 기준 각도, 로봇 정면과 일치한다는 보장 없음)
+- distance: mm 단위. 0.0이면 유효하지 않은(측정 실패) 값이므로 제외
+- x, y: mm 단위 직교좌표 (이미 계산되어 있음)
 
-print("=========================================")
-print(f"📡 {UART_PORT} 포트 수신 테스트를 시작합니다.")
-print("=========================================")
+목적: 어떤 angle 값이 로봇의 "진짜 정면"인지 확인
+사용법:
+1. 이 코드를 실행한다.
+2. 로봇 정면 15cm 앞에 손이나 박스 같은 물체를 놓는다.
+3. 콘솔에 계속 갱신되는 "가장 가까운 포인트 TOP 5"를 보고,
+   거리(distance)가 150mm 근처로 나오는 포인트의 angle 값을 확인한다.
+4. 물체를 왼쪽/오른쪽/뒤로도 옮겨가며 각각의 angle 값을 확인한다.
+"""
 
-try:
-    # 데이터가 들어올 때까지 대기하지 않도록 timeout=0(Non-blocking)으로 설정
-    ser = serial.Serial(UART_PORT, baudrate=BAUDRATE, timeout=0)
-    print(f"🟢 {UART_PORT} 포트가 성공적으로 열렸습니다!")
-    print("📥 STM32로부터 데이터를 기다리는 중... (종료하려면 Ctrl+C)")
-    print("-----------------------------------------")
-except Exception as e:
-    print(f"❌ {UART_PORT} 포트를 열 수 없습니다. 에러명: {e}")
-    print("💡 팁: 'ls /dev/ttyAMA*' 명령어로 포트가 활성화되어 있는지 확인하세요.")
-    sys.exit(1)
+import asyncio
+import json
+import websockets
 
-try:
-    while True:
-        # 현재 수신 버퍼에 쌓여 있는 바이트 수 확인
-        waiting_bytes = ser.in_waiting
-        
-        # 우리가 원하는 센서 패킷 크기(4바이트) 이상 쌓였을 때 작동
-        if waiting_bytes >= 4:
-            # 정확히 4바이트만 읽어옴
-            rx_data = ser.read(4)
-            
-            # 읽어온 데이터의 길이가 정확히 4바이트인지 다시 한번 체크
-            if len(rx_data) == 4:
-                temp = rx_data[0]
-                hum = rx_data[1]
-                cds = rx_data[2]
-                gas = rx_data[3]
-                
-                # 1. 보기 좋게 파싱된 센서값 출력
-                print(f"📥 [수신 성공] 온도: {temp}℃ | 습도: {hum}% | 조도: {cds}% | 가스레벨: {gas}")
-                
-                # 2. (디버깅용) 들어온 순수 바이너리/헥사 데이터도 같이 출력
-                # print(f"   └─ Raw Hex: {rx_data.hex().upper()}")
-            else:
-                print(f"⚠️ 데이터 유실 발생 (4바이트 미만 수신): {len(rx_data)} bytes")
-                
-        # CPU 과점유를 막기 위해 0.01초씩 쉬어줍니다.
-        time.sleep(0.01)
+WS_URI = "ws://192.168.40.216:8765"
 
-except KeyboardInterrupt:
-    print("\n👋 사용자에 의해 테스트가 종료되었습니다.")
-finally:
-    if 'ser' in locals() and ser.is_open:
-        ser.close()
-        print("🧹 UART 포트를 안전하게 닫았습니다.")
+PRINT_INTERVAL = 0.5  # 화면 갱신 주기(초)
+
+
+def extract_valid_points(data):
+    """data에서 유효한 라이다 포인트 목록을 추출. (distance=0인 무효값은 제외)"""
+    if not isinstance(data, dict) or data.get("type") != "lidar":
+        return None
+
+    points = data.get("points")
+    if not isinstance(points, list):
+        return None
+
+    return [
+        p for p in points
+        if isinstance(p, dict) and p.get("distance", 0) > 0
+    ]
+
+
+async def calibrate():
+    async with websockets.connect(WS_URI) as websocket:
+        print(f"✅ 중계 서버 연결 성공: {WS_URI}")
+        print("👉 지금 로봇 정면 15cm 앞에 물체(손, 박스 등)를 놓아주세요.")
+        print("👉 아래 '가장 가까운 포인트'의 angle 값을 확인하면 됩니다.\n")
+
+        buffer = []  # 최근 구간에서 모은 유효 포인트들
+        last_print = 0
+
+        async for message in websocket:
+            if isinstance(message, (bytes, bytearray)):
+                continue  # 카메라 프레임 무시
+
+            try:
+                data = json.loads(message)
+            except json.JSONDecodeError:
+                continue
+
+            points = extract_valid_points(data)
+            if not points:
+                continue  # 라이다 데이터가 아니거나 유효 포인트 없음
+
+            buffer.extend(points)
+
+            now = asyncio.get_event_loop().time()
+            if now - last_print >= PRINT_INTERVAL and buffer:
+                last_print = now
+
+                closest = sorted(buffer, key=lambda p: p["distance"])[:5]
+
+                print("─" * 55)
+                print("📍 가장 가까운 포인트 TOP 5 (거리순)")
+                for p in closest:
+                    print(f"   거리={p['distance']:7.1f}mm  각도={p['angle']:6.1f}°   "
+                          f"(x={p['x']:.1f}, y={p['y']:.1f})")
+
+                buffer = []  # 다음 구간 위해 초기화
+
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(calibrate())
+    except KeyboardInterrupt:
+        print("\n1종료")
+    except Exception as e:
+        print(f"❌ 오류 발생: {e}")

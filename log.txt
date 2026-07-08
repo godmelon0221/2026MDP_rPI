@@ -1,0 +1,688 @@
+❌ RGB 스트립 연동 실패!! (반드시 sudo 권한으로 실행했는지 확인하세요): NeoPixel support requires running with sudo, please try again!
+🟢 UART 3 포트 정상 로드 완료!
+📡 라이다 UART 포트 정상 로드 완료!
+📹 Picamera2 가동 성공 (해상도: 640x480, Quality: 50)
+🚀 메인 프로세스 가동 시작
+🟢 중계 서버 연결 성공!
+2026.07.07 - 17:27:55 - lidar 4095 bytes
+2026.07.07 - 17:28:00 - lidar 136 bytes
+2026.07.07 - 17:28:05 - lidar 286 bytes
+2026.07.07 - 17:28:10 - lidar 308 bytes
+2026.07.07 - 17:28:15 - lidar 122 bytes
+2026.07.07 - 18:25:22 - lidar 280 bytes
+2026.07.07 - 18:25:27 - lidar 289 bytes
+2026.07.07 - 18:25:32 - lidar 122 bytes
+2026.07.07 - 18:25:37 - lidar 286 bytes
+2026.07.07 - 18:25:42 - lidar 405 bytes
+2026.07.07 - 18:25:47 - lidar 392 bytes
+2026.07.07 - 18:25:52 - lidar 386 bytes
+2026.07.07 - 18:25:57 - lidar 360 bytes
+2026.07.07 - 18:26:02 - lidar 360 bytes
+2026.07.07 - 18:26:07 - lidar 408 bytes
+2026.07.07 - 18:26:12 - lidar 388 bytes
+2026.07.07 - 18:26:17 - lidar 132 bytes
+2026.07.07 - 18:26:22 - lidar 270 bytes
+2026.07.07 - 18:26:27 - lidar 395 bytes
+2026.07.07 - 18:26:32 - lidar 386 bytes
+2026.07.07 - 18:26:37 - lidar 376 bytes
+2026.07.07 - 18:26:42 - lidar 387 bytes
+2026.07.07 - 18:26:47 - lidar 376 bytes
+2026.07.07 - 18:26:52 - lidar 376 bytes
+2026.07.07 - 18:26:57 - lidar 377 bytes
+2026.07.07 - 18:27:02 - lidar 402 bytes
+2026.07.07 - 18:27:07 - lidar 360 bytes
+2026.07.07 - 18:27:12 - lidar 381 bytes
+2026.07.07 - 18:27:17 - lidar 376 bytes
+2026.07.07 - 18:27:22 - lidar 280 bytes
+2026.07.07 - 18:27:27 - lidar 405 bytes
+2026.07.07 - 18:27:32 - lidar 376 bytes
+2026.07.07 - 18:27:37 - lidar 370 bytes
+2026.07.07 - 18:27:42 - lidar 292 bytes
+2026.07.07 - 18:27:47 - lidar 294 bytes
+2026.07.07 - 18:27:52 - lidar 376 bytes
+2026.07.07 - 18:27:57 - lidar 401 bytes
+2026.07.07 - 18:28:02 - lidar 376 bytes
+2026.07.07 - 18:28:07 - lidar 365 bytes
+2026.07.07 - 18:28:12 - lidar 396 bytes
+2026.07.07 - 18:28:17 - lidar 376 bytes
+2026.07.07 - 18:28:22 - lidar 399 bytes
+2026.07.07 - 18:28:27 - lidar 392 bytes
+2026.07.07 - 18:28:32 - lidar 392 bytes
+2026.07.07 - 18:28:37 - lidar 392 bytes
+2026.07.07 - 18:28:42 - lidar 370 bytes
+2026.07.07 - 18:28:47 - lidar 398 bytes
+2026.07.07 - 18:28:52 - lidar 286 bytes
+2026.07.07 - 18:28:57 - lidar 386 bytes
+2026.07.07 - 18:29:02 - lidar 403 bytes
+2026.07.07 - 18:29:07 - lidar 138 bytes
+2026.07.07 - 18:29:12 - lidar 280 bytes
+2026.07.07 - 18:29:17 - lidar 395 bytes
+2026.07.07 - 18:29:22 - lidar 376 bytes
+2026.07.07 - 18:29:27 - lidar 398 bytes
+2026.07.07 - 18:29:32 - lidar 376 bytes
+2026.07.07 - 18:29:37 - lidar 424 bytes
+2026.07.07 - 18:29:42 - lidar 360 bytes
+2026.07.07 - 18:29:47 - lidar 280 bytes
+2026.07.07 - 18:29:52 - lidar 392 bytes
+2026.07.07 - 18:29:57 - lidar 392 bytes
+2026.07.07 - 18:30:02 - lidar 376 bytes
+2026.07.07 - 18:30:07 - lidar 382 bytes
+2026.07.07 - 18:30:13 - lidar 370 bytes
+2026.07.07 - 18:30:18 - lidar 376 bytes
+2026.07.07 - 18:30:23 - lidar 391 bytes
+2026.07.07 - 18:30:28 - lidar 132 bytes
+2026.07.07 - 18:30:33 - lidar 376 bytes
+2026.07.07 - 18:30:38 - lidar 376 bytes
+2026.07.07 - 18:30:43 - lidar 370 bytes
+2026.07.07 - 18:30:48 - lidar 298 bytes
+2026.07.07 - 18:30:53 - lidar 360 bytes
+2026.07.07 - 18:30:58 - lidar 360 bytes
+2026.07.07 - 18:31:03 - lidar 370 bytes
+2026.07.07 - 18:31:08 - lidar 392 bytes
+2026.07.07 - 18:31:13 - lidar 379 bytes
+2026.07.07 - 18:31:18 - lidar 400 bytes
+2026.07.07 - 18:31:23 - lidar 376 bytes
+2026.07.07 - 18:31:28 - lidar 392 bytes
+2026.07.07 - 18:31:33 - lidar 397 bytes
+2026.07.07 - 18:31:38 - lidar 360 bytes
+2026.07.07 - 18:31:43 - lidar 382 bytes
+2026.07.07 - 18:31:48 - lidar 376 bytes
+2026.07.07 - 18:31:53 - lidar 376 bytes
+2026.07.07 - 18:31:58 - lidar 376 bytes
+2026.07.07 - 18:32:03 - lidar 360 bytes
+2026.07.07 - 18:32:08 - lidar 384 bytes
+2026.07.07 - 18:32:13 - lidar 376 bytes
+2026.07.07 - 18:32:18 - lidar 361 bytes
+2026.07.07 - 18:32:23 - lidar 392 bytes
+2026.07.07 - 18:32:28 - lidar 376 bytes
+2026.07.07 - 18:32:33 - lidar 286 bytes
+2026.07.07 - 18:32:38 - lidar 398 bytes
+2026.07.07 - 18:32:43 - lidar 344 bytes
+2026.07.07 - 18:32:48 - lidar 376 bytes
+2026.07.07 - 18:32:53 - lidar 386 bytes
+2026.07.07 - 18:32:58 - lidar 382 bytes
+2026.07.07 - 18:33:03 - lidar 392 bytes
+2026.07.07 - 18:33:08 - lidar 408 bytes
+2026.07.07 - 18:33:13 - lidar 290 bytes
+2026.07.07 - 18:33:18 - lidar 376 bytes
+2026.07.07 - 18:33:23 - lidar 398 bytes
+2026.07.07 - 18:33:28 - lidar 392 bytes
+2026.07.07 - 18:33:33 - lidar 397 bytes
+2026.07.07 - 18:33:38 - lidar 386 bytes
+2026.07.07 - 18:33:43 - lidar 376 bytes
+2026.07.07 - 18:33:48 - lidar 376 bytes
+2026.07.07 - 18:33:53 - lidar 376 bytes
+2026.07.07 - 18:33:58 - lidar 286 bytes
+2026.07.07 - 18:34:03 - lidar 392 bytes
+2026.07.07 - 18:34:08 - lidar 399 bytes
+2026.07.07 - 18:34:13 - lidar 132 bytes
+2026.07.07 - 18:34:18 - lidar 376 bytes
+2026.07.07 - 18:34:23 - lidar 301 bytes
+2026.07.07 - 18:34:28 - lidar 386 bytes
+2026.07.07 - 18:34:33 - lidar 397 bytes
+2026.07.07 - 18:34:38 - lidar 390 bytes
+2026.07.07 - 18:34:43 - lidar 116 bytes
+2026.07.07 - 18:34:48 - lidar 376 bytes
+2026.07.07 - 18:34:53 - lidar 392 bytes
+2026.07.07 - 18:34:58 - lidar 397 bytes
+2026.07.07 - 18:35:03 - lidar 1076 bytes
+2026.07.07 - 18:35:08 - lidar 292 bytes
+2026.07.07 - 18:35:13 - lidar 376 bytes
+2026.07.07 - 18:35:19 - lidar 417 bytes
+2026.07.07 - 18:35:24 - lidar 450 bytes
+2026.07.07 - 18:35:29 - lidar 397 bytes
+2026.07.07 - 18:35:34 - lidar 392 bytes
+2026.07.07 - 18:35:39 - lidar 370 bytes
+2026.07.07 - 18:35:44 - lidar 376 bytes
+2026.07.07 - 18:35:49 - lidar 132 bytes
+2026.07.07 - 18:35:54 - lidar 397 bytes
+2026.07.07 - 18:35:59 - lidar 656 bytes
+2026.07.07 - 18:36:04 - lidar 651 bytes
+2026.07.07 - 18:36:09 - lidar 116 bytes
+2026.07.07 - 18:36:14 - lidar 373 bytes
+2026.07.07 - 18:36:19 - lidar 392 bytes
+2026.07.07 - 18:36:24 - lidar 398 bytes
+2026.07.07 - 18:36:29 - lidar 376 bytes
+2026.07.07 - 18:36:34 - lidar 400 bytes
+2026.07.07 - 18:36:39 - lidar 392 bytes
+2026.07.07 - 18:36:44 - lidar 386 bytes
+2026.07.07 - 18:36:49 - lidar 392 bytes
+2026.07.07 - 18:36:54 - lidar 286 bytes
+2026.07.07 - 18:36:59 - lidar 687 bytes
+2026.07.07 - 18:37:04 - lidar 552 bytes
+2026.07.07 - 18:37:34 - lidar 409 bytes
+2026.07.07 - 18:37:39 - lidar 286 bytes
+2026.07.07 - 18:37:44 - lidar 355 bytes
+2026.07.07 - 18:37:49 - lidar 540 bytes
+2026.07.07 - 18:37:54 - lidar 270 bytes
+2026.07.07 - 18:37:59 - lidar 376 bytes
+2026.07.07 - 18:38:04 - lidar 376 bytes
+2026.07.07 - 18:38:09 - lidar 386 bytes
+2026.07.07 - 18:38:14 - lidar 370 bytes
+2026.07.07 - 18:38:19 - lidar 613 bytes
+2026.07.07 - 18:38:24 - lidar 646 bytes
+2026.07.07 - 18:38:29 - lidar 659 bytes
+2026.07.07 - 18:38:34 - lidar 706 bytes
+⚠️ 연결 오류 발생: no close frame received or sent
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)❌ RGB 스트립 연동 실패!! (반드시 sudo 권한으로 실행했는지 확인하세요): NeoPixel support requires running with sudo, please try again!
+🟢 UART 3 포트 정상 로드 완료!
+📡 라이다 UART 포트 정상 로드 완료!
+📹 Picamera2 가동 성공 (해상도: 640x480, Quality: 50)
+🚀 메인 프로세스 가동 시작
+🟢 중계 서버 연결 성공!
+⚠️ 연결 오류 발생: no close frame received or sent
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+🟢 중계 서버 연결 성공!
+⚠️ 연결 오류 발생: no close frame received or sent
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: timed out during opening handshake
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)
+⚠️ 연결 오류 발생: [Errno 113] Connect call failed ('192.168.40.216', 8765)❌ RGB 스트립 연동 실패!! (반드시 sudo 권한으로 실행했는지 확인하세요): NeoPixel support requires running with sudo, please try again!
+🟢 UART 3 포트 정상 로드 완료!
+📡 라이다 UART 포트 정상 로드 완료!
+📹 Picamera2 가동 성공 (해상도: 640x480, Quality: 50)
+🚀 메인 프로세스 가동 시작
+🟢 중계 서버 연결 성공!
+2026.07.07 - 20:31:06 - lidar 4095 bytes
+2026.07.07 - 20:31:11 - lidar 344 bytes
+2026.07.07 - 20:31:16 - lidar 330 bytes
+2026.07.07 - 20:31:21 - lidar 361 bytes
+2026.07.07 - 20:31:26 - lidar 328 bytes
+2026.07.07 - 20:31:31 - lidar 314 bytes
+2026.07.07 - 20:31:36 - lidar 334 bytes
+2026.07.07 - 20:31:41 - lidar 138 bytes
+2026.07.07 - 20:31:46 - lidar 371 bytes
+2026.07.07 - 20:31:51 - lidar 318 bytes
+2026.07.07 - 20:31:56 - lidar 344 bytes
+2026.07.07 - 20:32:01 - lidar 296 bytes
+2026.07.07 - 20:32:06 - lidar 328 bytes
+2026.07.07 - 20:32:11 - lidar 347 bytes
+2026.07.07 - 20:32:16 - lidar 328 bytes
+2026.07.07 - 20:32:21 - lidar 335 bytes
+2026.07.07 - 20:32:26 - lidar 302 bytes
+2026.07.07 - 20:32:31 - lidar 348 bytes
+2026.07.07 - 20:32:36 - lidar 312 bytes
+2026.07.07 - 20:32:41 - lidar 312 bytes
+2026.07.07 - 20:32:46 - lidar 139 bytes
+2026.07.07 - 20:32:51 - lidar 344 bytes
+2026.07.07 - 20:32:56 - lidar 328 bytes
+2026.07.07 - 20:33:01 - lidar 341 bytes
+2026.07.07 - 20:33:06 - lidar 132 bytes
+2026.07.07 - 20:33:11 - lidar 312 bytes
+2026.07.07 - 20:33:16 - lidar 341 bytes
+2026.07.07 - 20:33:21 - lidar 318 bytes
+2026.07.07 - 20:33:26 - lidar 344 bytes
+2026.07.07 - 20:33:31 - lidar 318 bytes
+2026.07.07 - 20:33:36 - lidar 328 bytes
+2026.07.07 - 20:33:41 - lidar 344 bytes
+2026.07.07 - 20:33:46 - lidar 138 bytes
+2026.07.07 - 20:33:51 - lidar 304 bytes
+2026.07.07 - 20:33:56 - lidar 353 bytes
+2026.07.07 - 20:34:01 - lidar 138 bytes
+2026.07.07 - 20:34:06 - lidar 318 bytes
+2026.07.07 - 20:34:11 - lidar 344 bytes
+2026.07.07 - 20:34:16 - lidar 334 bytes
+2026.07.07 - 20:34:21 - lidar 328 bytes
+2026.07.07 - 20:34:26 - lidar 122 bytes
+2026.07.07 - 20:34:32 - lidar 318 bytes
+2026.07.07 - 20:34:37 - lidar 355 bytes
+2026.07.07 - 20:34:42 - lidar 148 bytes
+2026.07.07 - 20:34:47 - lidar 324 bytes
+2026.07.07 - 20:34:52 - lidar 154 bytes
+2026.07.07 - 20:34:57 - lidar 338 bytes
+2026.07.07 - 20:35:02 - lidar 145 bytes
+2026.07.07 - 20:35:07 - lidar 154 bytes
+2026.07.07 - 20:35:12 - lidar 302 bytes
+2026.07.07 - 20:35:17 - lidar 138 bytes
+2026.07.07 - 20:35:22 - lidar 344 bytes
+2026.07.07 - 20:35:27 - lidar 340 bytes
+2026.07.07 - 20:35:32 - lidar 132 bytes
+2026.07.07 - 20:35:37 - lidar 334 bytes
+2026.07.07 - 20:35:42 - lidar 157 bytes
+2026.07.07 - 20:35:47 - lidar 148 bytes
+2026.07.07 - 20:35:52 - lidar 350 bytes
+2026.07.07 - 20:35:57 - lidar 138 bytes
+2026.07.07 - 20:36:02 - lidar 318 bytes
+2026.07.07 - 20:36:07 - lidar 326 bytes
+2026.07.07 - 20:36:12 - lidar 344 bytes
+2026.07.07 - 20:36:17 - lidar 328 bytes
+2026.07.07 - 20:36:22 - lidar 138 bytes
+2026.07.07 - 20:36:27 - lidar 328 bytes
+2026.07.07 - 20:36:32 - lidar 328 bytes
+2026.07.07 - 20:36:37 - lidar 335 bytes
+2026.07.07 - 20:36:42 - lidar 312 bytes
+2026.07.07 - 20:36:47 - lidar 138 bytes
+2026.07.07 - 20:36:52 - lidar 138 bytes
+2026.07.07 - 20:36:57 - lidar 132 bytes
+2026.07.07 - 20:37:02 - lidar 343 bytes
+2026.07.07 - 20:37:07 - lidar 334 bytes
+2026.07.07 - 20:37:12 - lidar 328 bytes
+2026.07.07 - 20:37:17 - lidar 328 bytes
+2026.07.07 - 20:37:22 - lidar 296 bytes
+2026.07.07 - 20:37:27 - lidar 328 bytes
+2026.07.07 - 20:37:32 - lidar 350 bytes
+2026.07.07 - 20:37:37 - lidar 337 bytes
+2026.07.07 - 20:37:42 - lidar 138 bytes
+2026.07.07 - 20:37:47 - lidar 312 bytes
+2026.07.07 - 20:37:52 - lidar 144 bytes
+2026.07.07 - 20:37:57 - lidar 328 bytes
+2026.07.07 - 20:38:02 - lidar 344 bytes
+2026.07.07 - 20:38:07 - lidar 144 bytes
+2026.07.07 - 20:38:12 - lidar 312 bytes
+2026.07.07 - 20:38:17 - lidar 360 bytes
+2026.07.07 - 20:38:22 - lidar 132 bytes
+2026.07.07 - 20:38:27 - lidar 312 bytes
+2026.07.07 - 20:38:32 - lidar 132 bytes
+2026.07.07 - 20:38:37 - lidar 328 bytes
+2026.07.07 - 20:38:42 - lidar 344 bytes
+2026.07.07 - 20:38:47 - lidar 323 bytes
+2026.07.07 - 20:38:52 - lidar 318 bytes
+2026.07.07 - 20:38:57 - lidar 334 bytes
+2026.07.07 - 20:39:02 - lidar 335 bytes
+2026.07.07 - 20:39:07 - lidar 318 bytes
+2026.07.07 - 20:39:12 - lidar 296 bytes
+2026.07.07 - 20:39:17 - lidar 353 bytes
+2026.07.07 - 20:39:22 - lidar 334 bytes
+2026.07.07 - 20:39:27 - lidar 328 bytes
+2026.07.07 - 20:39:32 - lidar 331 bytes
+2026.07.07 - 20:39:37 - lidar 318 bytes
+2026.07.07 - 20:39:42 - lidar 296 bytes
+2026.07.07 - 20:39:47 - lidar 138 bytes
+2026.07.07 - 20:39:52 - lidar 328 bytes
+2026.07.07 - 20:39:57 - lidar 334 bytes
+2026.07.07 - 20:40:02 - lidar 116 bytes
+2026.07.07 - 20:40:07 - lidar 312 bytes
+2026.07.07 - 20:40:12 - lidar 333 bytes
+2026.07.07 - 20:40:17 - lidar 344 bytes
+2026.07.07 - 20:40:22 - lidar 148 bytes
+2026.07.07 - 20:40:27 - lidar 122 bytes
+2026.07.07 - 20:40:32 - lidar 370 bytes
+2026.07.07 - 20:40:37 - lidar 385 bytes
+2026.07.07 - 20:40:42 - lidar 360 bytes
+2026.07.07 - 20:40:47 - lidar 360 bytes
+2026.07.07 - 20:40:52 - lidar 399 bytes
+2026.07.07 - 20:40:57 - lidar 376 bytes
+2026.07.07 - 20:41:02 - lidar 360 bytes
+2026.07.07 - 20:41:07 - lidar 386 bytes
+2026.07.07 - 20:41:12 - lidar 366 bytes
+2026.07.07 - 20:41:18 - lidar 360 bytes
+2026.07.07 - 20:41:23 - lidar 376 bytes
+2026.07.07 - 20:41:28 - lidar 138 bytes
+2026.07.07 - 20:41:33 - lidar 387 bytes
+2026.07.07 - 20:41:38 - lidar 374 bytes
+2026.07.07 - 20:41:43 - lidar 132 bytes
+2026.07.07 - 20:41:48 - lidar 401 bytes
+2026.07.07 - 20:41:53 - lidar 154 bytes
+2026.07.07 - 20:41:58 - lidar 379 bytes
+2026.07.07 - 20:42:03 - lidar 408 bytes
+2026.07.07 - 20:42:08 - lidar 373 bytes
+2026.07.07 - 20:42:13 - lidar 376 bytes
+2026.07.07 - 20:42:18 - lidar 270 bytes
+2026.07.07 - 20:42:23 - lidar 421 bytes
+2026.07.07 - 20:42:28 - lidar 360 bytes
+2026.07.07 - 20:42:33 - lidar 286 bytes
+2026.07.07 - 20:42:38 - lidar 398 bytes
+2026.07.07 - 20:42:43 - lidar 138 bytes
+2026.07.07 - 20:42:48 - lidar 449 bytes
+2026.07.07 - 20:42:53 - lidar 270 bytes
+2026.07.07 - 20:42:58 - lidar 403 bytes
+2026.07.07 - 20:43:03 - lidar 138 bytes
+2026.07.07 - 20:43:08 - lidar 376 bytes
+2026.07.07 - 20:43:13 - lidar 311 bytes
+2026.07.07 - 20:43:18 - lidar 376 bytes
+2026.07.07 - 20:43:23 - lidar 286 bytes
+2026.07.07 - 20:43:28 - lidar 385 bytes
+2026.07.07 - 20:43:33 - lidar 122 bytes
+2026.07.07 - 20:43:38 - lidar 387 bytes
+2026.07.07 - 20:43:43 - lidar 270 bytes
+2026.07.07 - 20:43:48 - lidar 366 bytes
+2026.07.07 - 20:43:53 - lidar 379 bytes
+2026.07.07 - 20:43:58 - lidar 280 bytes
+2026.07.07 - 20:44:03 - lidar 370 bytes
+2026.07.07 - 20:44:08 - lidar 414 bytes
+2026.07.07 - 20:44:13 - lidar 360 bytes
+2026.07.07 - 20:44:18 - lidar 417 bytes
+2026.07.07 - 20:44:23 - lidar 376 bytes
+2026.07.07 - 20:44:28 - lidar 3544 bytes
+2026.07.07 - 20:44:33 - lidar 419 bytes
+2026.07.07 - 20:44:39 - lidar 4095 bytes
+2026.07.07 - 20:44:46 - lidar 4095 bytes
+2026.07.07 - 20:44:51 - lidar 378 bytes
+2026.07.07 - 20:44:56 - lidar 440 bytes
+2026.07.07 - 20:45:01 - lidar 138 bytes
+2026.07.07 - 20:45:06 - lidar 142 bytes
+2026.07.07 - 20:45:11 - lidar 365 bytes
+2026.07.07 - 20:45:16 - lidar 270 bytes
+2026.07.07 - 20:45:21 - lidar 376 bytes
+2026.07.07 - 20:45:26 - lidar 355 bytes
+2026.07.07 - 20:45:31 - lidar 148 bytes
+2026.07.07 - 20:45:36 - lidar 116 bytes
+2026.07.07 - 20:45:41 - lidar 368 bytes
+2026.07.07 - 20:45:46 - lidar 376 bytes
+2026.07.07 - 20:45:51 - lidar 383 bytes
+2026.07.07 - 20:45:56 - lidar 350 bytes
+2026.07.07 - 20:46:01 - lidar 376 bytes
+2026.07.07 - 20:46:06 - lidar 373 bytes
+2026.07.07 - 20:46:11 - lidar 382 bytes
+2026.07.07 - 20:46:16 - lidar 366 bytes
+2026.07.07 - 20:46:21 - lidar 138 bytes
+2026.07.07 - 20:46:26 - lidar 402 bytes
+2026.07.07 - 20:46:31 - lidar 395 bytes
+2026.07.07 - 20:46:36 - lidar 374 bytes
+2026.07.07 - 20:46:42 - lidar 378 bytes
+2026.07.07 - 20:46:47 - lidar 160 bytes
+2026.07.07 - 20:46:52 - lidar 376 bytes
+2026.07.07 - 20:46:57 - lidar 344 bytes
+2026.07.07 - 20:47:02 - lidar 385 bytes
+2026.07.07 - 20:47:07 - lidar 154 bytes
+2026.07.07 - 20:47:12 - lidar 350 bytes
+2026.07.07 - 20:47:17 - lidar 360 bytes
+2026.07.07 - 20:47:22 - lidar 360 bytes
+2026.07.07 - 20:47:27 - lidar 387 bytes
+2026.07.07 - 20:47:32 - lidar 148 bytes
+2026.07.07 - 20:47:37 - lidar 138 bytes
+2026.07.07 - 20:47:42 - lidar 385 bytes
+2026.07.07 - 20:47:47 - lidar 376 bytes
+2026.07.07 - 20:47:52 - lidar 386 bytes
+2026.07.07 - 20:47:57 - lidar 385 bytes
+2026.07.07 - 20:48:02 - lidar 392 bytes
+2026.07.07 - 20:48:07 - lidar 389 bytes
+2026.07.07 - 20:48:12 - lidar 376 bytes
+2026.07.07 - 20:48:17 - lidar 370 bytes
+2026.07.07 - 20:48:22 - lidar 132 bytes
+2026.07.07 - 20:48:27 - lidar 286 bytes
+2026.07.07 - 20:48:32 - lidar 376 bytes
+2026.07.07 - 20:48:37 - lidar 286 bytes
+2026.07.07 - 20:48:42 - lidar 122 bytes
+2026.07.07 - 20:48:47 - lidar 370 bytes
+2026.07.07 - 20:48:52 - lidar 375 bytes
+2026.07.07 - 20:48:57 - lidar 360 bytes
+2026.07.07 - 20:49:02 - lidar 350 bytes
+2026.07.07 - 20:49:07 - lidar 122 bytes
+2026.07.07 - 20:49:12 - lidar 360 bytes
+2026.07.07 - 20:49:17 - lidar 373 bytes
+2026.07.07 - 20:49:22 - lidar 344 bytes
+2026.07.07 - 20:49:27 - lidar 132 bytes
+2026.07.07 - 20:49:32 - lidar 128 bytes
+2026.07.07 - 20:49:37 - lidar 406 bytes
+2026.07.07 - 20:49:42 - lidar 138 bytes
+2026.07.07 - 20:49:47 - lidar 292 bytes
+2026.07.07 - 20:49:52 - lidar 344 bytes
+2026.07.07 - 20:49:57 - lidar 286 bytes
+2026.07.07 - 20:50:02 - lidar 387 bytes
+2026.07.07 - 20:50:07 - lidar 376 bytes
+2026.07.07 - 20:50:12 - lidar 360 bytes
+2026.07.07 - 20:50:17 - lidar 154 bytes
+2026.07.07 - 20:50:22 - lidar 276 bytes
+2026.07.07 - 20:50:27 - lidar 376 bytes
+2026.07.07 - 20:50:32 - lidar 376 bytes
+2026.07.07 - 20:50:37 - lidar 372 bytes
+2026.07.07 - 20:50:42 - lidar 138 bytes
+2026.07.07 - 20:50:47 - lidar 376 bytes
+2026.07.07 - 20:50:52 - lidar 360 bytes
+2026.07.07 - 20:50:57 - lidar 146 bytes
+2026.07.07 - 20:51:02 - lidar 370 bytes
+2026.07.07 - 20:51:07 - lidar 376 bytes
+2026.07.07 - 20:51:12 - lidar 391 bytes
+2026.07.07 - 20:51:17 - lidar 408 bytes
+2026.07.07 - 20:51:22 - lidar 360 bytes
+2026.07.07 - 20:51:27 - lidar 376 bytes
+2026.07.07 - 20:51:32 - lidar 374 bytes
+2026.07.07 - 20:51:37 - lidar 138 bytes
+2026.07.07 - 20:51:42 - lidar 286 bytes
+2026.07.07 - 20:51:47 - lidar 372 bytes
+2026.07.07 - 20:51:52 - lidar 389 bytes
+2026.07.07 - 20:51:57 - lidar 376 bytes
+2026.07.07 - 20:52:02 - lidar 362 bytes
+2026.07.07 - 20:52:07 - lidar 427 bytes
+2026.07.07 - 20:52:12 - lidar 408 bytes
+2026.07.07 - 20:52:17 - lidar 360 bytes
+2026.07.07 - 20:52:22 - lidar 393 bytes
+2026.07.07 - 20:52:27 - lidar 376 bytes
+2026.07.07 - 20:52:33 - lidar 134 bytes
+2026.07.07 - 20:52:38 - lidar 395 bytes
+2026.07.07 - 20:52:43 - lidar 376 bytes
+2026.07.07 - 20:52:48 - lidar 374 bytes
+2026.07.07 - 20:52:53 - lidar 391 bytes
+2026.07.07 - 20:52:58 - lidar 386 bytes
+2026.07.07 - 20:53:03 - lidar 132 bytes
+2026.07.07 - 20:53:08 - lidar 132 bytes
+2026.07.07 - 20:53:13 - lidar 376 bytes
+2026.07.07 - 20:53:18 - lidar 392 bytes
+2026.07.07 - 20:53:23 - lidar 138 bytes
+2026.07.07 - 20:53:28 - lidar 360 bytes
+2026.07.07 - 20:53:33 - lidar 372 bytes
+2026.07.07 - 20:53:38 - lidar 137 bytes
+2026.07.07 - 20:53:43 - lidar 376 bytes
+2026.07.07 - 20:53:48 - lidar 426 bytes
+2026.07.07 - 20:53:53 - lidar 265 bytes
+2026.07.07 - 20:53:58 - lidar 386 bytes
+2026.07.07 - 20:54:03 - lidar 286 bytes
+2026.07.07 - 20:54:08 - lidar 360 bytes
+2026.07.07 - 20:54:13 - lidar 138 bytes
+2026.07.07 - 20:54:18 - lidar 375 bytes
+2026.07.07 - 20:54:23 - lidar 376 bytes
+2026.07.07 - 20:54:28 - lidar 286 bytes
+2026.07.07 - 20:54:33 - lidar 371 bytes
+2026.07.07 - 20:54:38 - lidar 360 bytes
+2026.07.07 - 20:54:43 - lidar 385 bytes
+2026.07.07 - 20:54:48 - lidar 408 bytes
+2026.07.07 - 20:54:53 - lidar 132 bytes
+2026.07.07 - 20:54:58 - lidar 479 bytes
+2026.07.07 - 20:55:03 - lidar 4095 bytes
+2026.07.07 - 20:55:09 - lidar 4095 bytes
+2026.07.07 - 20:55:15 - lidar 4095 bytes
+2026.07.07 - 20:55:20 - lidar 4095 bytes
+2026.07.07 - 20:55:25 - lidar 368 bytes
+2026.07.07 - 20:55:30 - lidar 387 bytes
+2026.07.07 - 20:55:35 - lidar 360 bytes
+2026.07.07 - 20:55:40 - lidar 132 bytes
+2026.07.07 - 20:55:45 - lidar 128 bytes
+2026.07.07 - 20:55:50 - lidar 376 bytes
+2026.07.07 - 20:55:55 - lidar 376 bytes
+2026.07.07 - 20:56:00 - lidar 397 bytes
+2026.07.07 - 20:56:05 - lidar 360 bytes
+2026.07.07 - 20:56:10 - lidar 286 bytes
+2026.07.07 - 20:56:15 - lidar 389 bytes
+2026.07.07 - 20:56:20 - lidar 382 bytes
+2026.07.07 - 20:56:25 - lidar 376 bytes
+2026.07.07 - 20:56:30 - lidar 376 bytes
+2026.07.07 - 20:56:35 - lidar 301 bytes
+2026.07.07 - 20:56:40 - lidar 344 bytes
+2026.07.07 - 20:56:45 - lidar 376 bytes
+2026.07.07 - 20:56:50 - lidar 403 bytes
+2026.07.07 - 20:56:55 - lidar 376 bytes
+2026.07.07 - 20:57:00 - lidar 286 bytes
+2026.07.07 - 20:57:05 - lidar 132 bytes
+2026.07.07 - 20:57:10 - lidar 376 bytes
+2026.07.07 - 20:57:15 - lidar 270 bytes
+2026.07.07 - 20:57:20 - lidar 376 bytes
+2026.07.07 - 20:57:25 - lidar 350 bytes
+2026.07.07 - 20:57:30 - lidar 376 bytes
+2026.07.07 - 20:57:35 - lidar 401 bytes
+2026.07.07 - 20:57:40 - lidar 376 bytes
+2026.07.07 - 20:57:45 - lidar 360 bytes
+2026.07.07 - 20:57:50 - lidar 291 bytes
+2026.07.07 - 20:57:55 - lidar 360 bytes
+2026.07.07 - 20:58:00 - lidar 398 bytes
+2026.07.07 - 20:58:05 - lidar 387 bytes
+2026.07.07 - 20:58:10 - lidar 270 bytes
+2026.07.07 - 20:58:15 - lidar 376 bytes
+2026.07.07 - 20:58:20 - lidar 401 bytes
+2026.07.07 - 20:58:25 - lidar 360 bytes
+2026.07.07 - 20:58:30 - lidar 408 bytes
+2026.07.07 - 20:58:35 - lidar 355 bytes
+2026.07.07 - 20:58:40 - lidar 360 bytes
+2026.07.07 - 20:58:45 - lidar 376 bytes
+2026.07.07 - 20:58:50 - lidar 381 bytes
+2026.07.07 - 20:58:55 - lidar 132 bytes
+2026.07.07 - 20:59:00 - lidar 138 bytes
+2026.07.07 - 20:59:05 - lidar 366 bytes
+2026.07.07 - 20:59:10 - lidar 376 bytes
+2026.07.07 - 20:59:15 - lidar 116 bytes
+2026.07.07 - 20:59:20 - lidar 376 bytes
+2026.07.07 - 20:59:25 - lidar 344 bytes
+2026.07.07 - 20:59:30 - lidar 369 bytes
+2026.07.07 - 20:59:35 - lidar 132 bytes
+2026.07.07 - 20:59:41 - lidar 392 bytes
+2026.07.07 - 20:59:46 - lidar 138 bytes
+2026.07.07 - 20:59:51 - lidar 148 bytes
+2026.07.07 - 20:59:56 - lidar 403 bytes
+2026.07.07 - 21:00:01 - lidar 344 bytes
+2026.07.07 - 21:00:06 - lidar 350 bytes
+2026.07.07 - 21:00:11 - lidar 132 bytes
+2026.07.07 - 21:00:16 - lidar 376 bytes
+2026.07.07 - 21:00:21 - lidar 392 bytes
+2026.07.07 - 21:00:26 - lidar 276 bytes
+2026.07.07 - 21:00:31 - lidar 148 bytes
+2026.07.07 - 21:00:36 - lidar 355 bytes
+2026.07.07 - 21:00:41 - lidar 389 bytes
+2026.07.07 - 21:00:46 - lidar 360 bytes
+2026.07.07 - 21:00:51 - lidar 328 bytes
+2026.07.07 - 21:00:56 - lidar 377 bytes
+2026.07.07 - 21:01:01 - lidar 132 bytes
+2026.07.07 - 21:01:06 - lidar 350 bytes
+2026.07.07 - 21:01:11 - lidar 366 bytes
+2026.07.07 - 21:01:16 - lidar 376 bytes
+2026.07.07 - 21:01:21 - lidar 376 bytes
+2026.07.07 - 21:01:26 - lidar 403 bytes
+2026.07.07 - 21:01:31 - lidar 360 bytes
+2026.07.07 - 21:01:36 - lidar 349 bytes
+2026.07.07 - 21:01:41 - lidar 376 bytes
+2026.07.07 - 21:01:46 - lidar 392 bytes
+2026.07.07 - 21:01:51 - lidar 373 bytes
+2026.07.07 - 21:01:56 - lidar 344 bytes
+2026.07.07 - 21:02:01 - lidar 138 bytes
+2026.07.07 - 21:02:06 - lidar 350 bytes
+2026.07.07 - 21:02:11 - lidar 360 bytes
+2026.07.07 - 21:02:16 - lidar 376 bytes
+2026.07.07 - 21:02:21 - lidar 371 bytes
+2026.07.07 - 21:02:26 - lidar 254 bytes
+2026.07.07 - 21:02:31 - lidar 376 bytes
+2026.07.07 - 21:02:36 - lidar 366 bytes
+2026.07.07 - 21:02:41 - lidar 116 bytes
+2026.07.07 - 21:02:46 - lidar 397 bytes
+2026.07.07 - 21:02:51 - lidar 376 bytes
+2026.07.07 - 21:02:56 - lidar 360 bytes
+2026.07.07 - 21:03:01 - lidar 365 bytes
+2026.07.07 - 21:03:06 - lidar 360 bytes
+2026.07.07 - 21:03:11 - lidar 376 bytes
+2026.07.07 - 21:03:16 - lidar 413 bytes
+2026.07.07 - 21:03:21 - lidar 370 bytes
+2026.07.07 - 21:03:26 - lidar 142 bytes
+2026.07.07 - 21:03:31 - lidar 371 bytes
+2026.07.07 - 21:03:36 - lidar 376 bytes
+2026.07.07 - 21:03:41 - lidar 138 bytes
+2026.07.07 - 21:03:46 - lidar 138 bytes
+2026.07.07 - 21:03:51 - lidar 138 bytes
+2026.07.07 - 21:03:56 - lidar 408 bytes
+2026.07.07 - 21:04:01 - lidar 375 bytes
+2026.07.07 - 21:04:06 - lidar 360 bytes
+2026.07.07 - 21:04:11 - lidar 344 bytes
+2026.07.07 - 21:04:16 - lidar 376 bytes
+2026.07.07 - 21:04:21 - lidar 382 bytes
+2026.07.07 - 21:04:26 - lidar 399 bytes
+2026.07.07 - 21:04:31 - lidar 376 bytes
+2026.07.07 - 21:04:36
